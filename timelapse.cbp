@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Timelapse" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/timelapse" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-Wl,-rpath,home/arrogant/ffmpeg_build/sharedlib" />
+					<Add option="-D__STDC_CONSTANT_MACROS" />
+					<Add directory="/home/arrogant/ffmpeg_build/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lm" />
+					<Add option="-lz" />
+					<Add option="-lva" />
+					<Add option="-lpthread" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libavdevice.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libavformat.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libavfilter.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libavcodec.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libswscale.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libswresample.so" />
+					<Add library="/home/arrogant/ffmpeg_build/sharedlib/libavutil.so" />
+					<Add directory="/home/arrogant/ffmpeg_build/sharedlib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="lib/audiofifo.cpp" />
+		<Unit filename="lib/audiofifo.h" />
+		<Unit filename="lib/chary.cpp" />
+		<Unit filename="lib/chary.h" />
+		<Unit filename="lib/cli.h" />
+		<Unit filename="lib/codec.cpp" />
+		<Unit filename="lib/codec.h" />
+		<Unit filename="lib/codeccontext.cpp" />
+		<Unit filename="lib/codeccontext.h" />
+		<Unit filename="lib/common.h" />
+		<Unit filename="lib/dataobject.cpp" />
+		<Unit filename="lib/dataobject.h" />
+		<Unit filename="lib/error.cpp" />
+		<Unit filename="lib/error.h" />
+		<Unit filename="lib/formatcontext.cpp" />
+		<Unit filename="lib/formatcontext.h" />
+		<Unit filename="lib/frame.cpp" />
+		<Unit filename="lib/frame.h" />
+		<Unit filename="lib/framerate.cpp" />
+		<Unit filename="lib/framerate.h" />
+		<Unit filename="lib/maths.h" />
+		<Unit filename="lib/packet.cpp" />
+		<Unit filename="lib/packet.h" />
+		<Unit filename="lib/resample.cpp" />
+		<Unit filename="lib/resample.h" />
+		<Unit filename="lib/stream.cpp" />
+		<Unit filename="lib/stream.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="todo" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+			<wxsmith version="1">
+				<resources>
+					<wxDialog wxs="wxsmith/NewDialog.wxs" src="NewDialog.cpp" hdr="NewDialog.h" fwddecl="0" i18n="1" name="NewDialog" language="CPP" />
+				</resources>
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

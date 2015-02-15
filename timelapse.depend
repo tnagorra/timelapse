@@ -1,0 +1,339 @@
+# depslib dependency file v1.0
+1395487723 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/audiofifo.cpp
+	"common.h"
+	"frame.h"
+	"codeccontext.h"
+	"audiofifo.h"
+
+1395676264 /home/arrogant/ffmpeg_working/Project/CLI/lib/common.h
+	<libavcodec/avcodec.h>
+	<libavutil/opt.h>
+	<libavutil/mathematics.h>
+	<libavformat/avformat.h>
+	<libswscale/swscale.h>
+	<libswresample/swresample.h>
+	"libavutil/audio_fifo.h"
+	<libavutil/imgutils.h>
+	<libavutil/parseutils.h>
+	<sys/stat.h>
+	<iostream>
+	<queue>
+	"maths.h"
+	"chary.h"
+	"error.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavcodec/avcodec.h
+	<errno.h>
+	"libavutil/samplefmt.h"
+	"libavutil/attributes.h"
+	"libavutil/avutil.h"
+	"libavutil/buffer.h"
+	"libavutil/cpu.h"
+	"libavutil/channel_layout.h"
+	"libavutil/dict.h"
+	"libavutil/frame.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"libavutil/rational.h"
+	"version.h"
+	"libavutil/mem.h"
+	"old_codec_ids.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/samplefmt.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/avutil.h
+	"common.h"
+	"error.h"
+	"version.h"
+	"macros.h"
+	"mathematics.h"
+	"rational.h"
+	"log.h"
+	"pixfmt.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/common.h
+	<errno.h>
+	<inttypes.h>
+	<limits.h>
+	<math.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"attributes.h"
+	"version.h"
+	"libavutil/avconfig.h"
+	"config.h"
+	"intmath.h"
+	"common.h"
+	"mem.h"
+	"internal.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/attributes.h
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/version.h
+	"macros.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/macros.h
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/avconfig.h
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/mem.h
+	<limits.h>
+	<stdint.h>
+	"attributes.h"
+	"error.h"
+	"avutil.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/error.h
+	<errno.h>
+	<stddef.h>
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/mathematics.h
+	<stdint.h>
+	<math.h>
+	"attributes.h"
+	"rational.h"
+	"intfloat.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/rational.h
+	<stdint.h>
+	<limits.h>
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/intfloat.h
+	<stdint.h>
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/log.h
+	<stdarg.h>
+	"avutil.h"
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/pixfmt.h
+	"libavutil/avconfig.h"
+	"version.h"
+	"old_pix_fmts.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/old_pix_fmts.h
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/buffer.h
+	<stdint.h>
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/cpu.h
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/channel_layout.h
+	<stdint.h>
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/dict.h
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/frame.h
+	<stdint.h>
+	"avutil.h"
+	"buffer.h"
+	"dict.h"
+	"rational.h"
+	"samplefmt.h"
+	"version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavcodec/version.h
+	"libavutil/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavcodec/old_codec_ids.h
+	"libavutil/common.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/opt.h
+	"rational.h"
+	"avutil.h"
+	"dict.h"
+	"log.h"
+	"pixfmt.h"
+	"samplefmt.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavformat/avformat.h
+	<time.h>
+	<stdio.h>
+	"libavcodec/avcodec.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"avio.h"
+	"libavformat/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavformat/avio.h
+	<stdint.h>
+	"libavutil/common.h"
+	"libavutil/dict.h"
+	"libavutil/log.h"
+	"libavformat/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavformat/version.h
+	"libavutil/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libswscale/swscale.h
+	<stdint.h>
+	"libavutil/avutil.h"
+	"libavutil/log.h"
+	"libavutil/pixfmt.h"
+	"version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libswscale/version.h
+	"libavutil/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libswresample/swresample.h
+	<stdint.h>
+	"libavutil/samplefmt.h"
+	"libswresample/version.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libswresample/version.h
+	"libavutil/avutil.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/audio_fifo.h
+	"avutil.h"
+	"fifo.h"
+	"samplefmt.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/fifo.h
+	<stdint.h>
+	"avutil.h"
+	"attributes.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/imgutils.h
+	"avutil.h"
+	"pixdesc.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/pixdesc.h
+	<inttypes.h>
+	"attributes.h"
+	"pixfmt.h"
+
+1391224003 /home/arrogant/ffmpeg_build/include/libavutil/parseutils.h
+	<time.h>
+	"rational.h"
+
+1395655547 /home/arrogant/ffmpeg_working/Project/CLI/lib/maths.h
+	<cmath>
+
+1395655941 /home/arrogant/ffmpeg_working/Project/CLI/lib/frame.h
+	"common.h"
+
+1395577080 /home/arrogant/ffmpeg_working/Project/CLI/lib/codeccontext.h
+	"common.h"
+
+1395159703 /home/arrogant/ffmpeg_working/Project/CLI/lib/audiofifo.h
+	"common.h"
+
+1395427067 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/codec.cpp
+	"common.h"
+	"formatcontext.h"
+	"codec.h"
+
+1395562424 /home/arrogant/ffmpeg_working/Project/CLI/lib/formatcontext.h
+	"common.h"
+
+1395285663 /home/arrogant/ffmpeg_working/Project/CLI/lib/codec.h
+	"common.h"
+
+1395582198 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/codeccontext.cpp
+	"common.h"
+	"codec.h"
+	"stream.h"
+	"formatcontext.h"
+	"codeccontext.h"
+
+1395579141 /home/arrogant/ffmpeg_working/Project/CLI/lib/stream.h
+	"codec.h"
+	"common.h"
+
+1395601017 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/formatcontext.cpp
+	"common.h"
+	"packet.h"
+	"frame.h"
+	"stream.h"
+	"codeccontext.h"
+	"formatcontext.h"
+
+1395159015 /home/arrogant/ffmpeg_working/Project/CLI/lib/packet.h
+	"common.h"
+
+1395655679 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/frame.cpp
+	"common.h"
+	"packet.h"
+	"frame.h"
+	"resample.h"
+	"audiofifo.h"
+	"codeccontext.h"
+	"formatcontext.h"
+
+1395408720 /home/arrogant/ffmpeg_working/Project/CLI/lib/resample.h
+	"common.h"
+
+1395159071 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/packet.cpp
+	"common.h"
+	"packet.h"
+
+1395427221 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/resample.cpp
+	"common.h"
+	"resample.h"
+	"codeccontext.h"
+
+1395579259 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/stream.cpp
+	"common.h"
+	"formatcontext.h"
+	"codec.h"
+	"stream.h"
+
+1395684641 source:/home/arrogant/ffmpeg_working/Project/CLI/main.cpp
+	"lib/cli.h"
+	"lib/framerate.h"
+
+1395677467 /home/arrogant/ffmpeg_working/Project/CLI/lib/cli.h
+	"common.h"
+	"packet.h"
+	"formatcontext.h"
+	"codec.h"
+	"codeccontext.h"
+	"stream.h"
+	"audiofifo.h"
+	"resample.h"
+	"frame.h"
+	"error.h"
+	"chary.h"
+	"dataobject.h"
+
+1395427382 /home/arrogant/ffmpeg_working/Project/CLI/lib/error.h
+	"chary.h"
+	<iostream>
+
+1395425578 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/chary.cpp
+	"chary.h"
+	<iostream>
+
+1395562342 /home/arrogant/ffmpeg_working/Project/CLI/lib/chary.h
+	<iostream>
+
+1395427377 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/error.cpp
+	"error.h"
+	"chary.h"
+	<iostream>
+
+1395479685 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/framerate.cpp
+	"framerate.h"
+	<cmath>
+
+1395683102 /home/arrogant/ffmpeg_working/Project/CLI/lib/framerate.h
+	<cmath>
+	<iostream>
+
+1395684578 source:/home/arrogant/ffmpeg_working/Project/CLI/lib/dataobject.cpp
+	"common.h"
+	"dataobject.h"
+	"frame.h"
+
+1395684562 /home/arrogant/ffmpeg_working/Project/CLI/lib/dataobject.h
+	"common.h"
+	"frame.h"
+
